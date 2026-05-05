@@ -53,8 +53,27 @@
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
+      "drc_exclusions": [
+        [
+          "unconnected_items|145925000|82075000|F.Cu|4|73bc2c7f-66cf-40bc-9616-573583f11471|fab9c995-554c-4416-997c-bba838069162",
+          ""
+        ],
+        [
+          "unconnected_items|153425000|93425000|F.Cu|4|3ff60742-9191-48bb-bb64-80c5d50c777c|02c10a24-42b3-47ef-877d-fd968eb3e2a1",
+          ""
+        ],
+        [
+          "unconnected_items|155350000|84000000|F.Cu|4|163d340e-1529-4473-9a37-f4239c2ec5cc|3ff60742-9191-48bb-bb64-80c5d50c777c",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -188,7 +207,14 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0,
+        0.2032,
+        0.254,
+        0.3048,
+        0.381,
+        0.508
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -215,7 +241,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -460,7 +491,7 @@
       "similar_labels": "warning",
       "similar_power": "warning",
       "simulation_model_issue": "ignore",
-      "single_global_label": "ignore",
+      "single_global_label": "error",
       "stacked_pin_name": "warning",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
@@ -512,7 +543,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "Gerber/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
