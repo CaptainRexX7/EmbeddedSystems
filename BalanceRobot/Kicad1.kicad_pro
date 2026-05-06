@@ -62,15 +62,15 @@
       ],
       "drc_exclusions": [
         [
-          "unconnected_items|145925000|82075000|F.Cu|4|73bc2c7f-66cf-40bc-9616-573583f11471|fab9c995-554c-4416-997c-bba838069162",
+          "unconnected_items|145000000|90000000|F.Cu|4|fab9c995-554c-4416-997c-bba838069162|73bc2c7f-66cf-40bc-9616-573583f11471",
           ""
         ],
         [
-          "unconnected_items|153425000|93425000|F.Cu|4|3ff60742-9191-48bb-bb64-80c5d50c777c|02c10a24-42b3-47ef-877d-fd968eb3e2a1",
+          "unconnected_items|146925000|93425000|F.Cu|4|32c9d9fe-e9ac-4d8f-b4c7-67ac19872ad6|4265875b-2b90-440a-8289-4d2a4091cfcc",
           ""
         ],
         [
-          "unconnected_items|155350000|84000000|F.Cu|4|163d340e-1529-4473-9a37-f4239c2ec5cc|3ff60742-9191-48bb-bb64-80c5d50c777c",
+          "unconnected_items|153425000|93425000|F.Cu|4|4265875b-2b90-440a-8289-4d2a4091cfcc|163d340e-1529-4473-9a37-f4239c2ec5cc",
           ""
         ]
       ],
