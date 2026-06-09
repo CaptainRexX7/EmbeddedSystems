@@ -14418,7 +14418,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1 µF"
+		(property "Value" "0.01 µF"
 			(at 55.626 51.562 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19280,7 +19280,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1kΩ"
+		(property "Value" "1 kΩ"
 			(at 185.42 105.4099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19871,7 +19871,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1kΩ"
+		(property "Value" "1 kΩ"
 			(at 185.42 138.4299 0)
 			(show_name no)
 			(do_not_autoplace no)

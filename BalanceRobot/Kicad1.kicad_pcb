@@ -1154,15 +1154,26 @@
 			(uuid "6d7cea8a-0c6c-479d-8293-3d374a81c648")
 		)
 		(embedded_fonts no)
-		(model "${KICAD8_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_2x04_P2.54mm_Vertical.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_2x04_P2.54mm_Vertical.step"
 			(offset
-				(xyz 0 0 0)
+				(xyz -2.5 -7.5 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 180)
+			)
+		)
+		(model "${KIPRJMOD}/components/ESP8266-01_ESP-01/step/ESP8266-01_ESP-01.step"
+			(offset
+				(xyz 8.5 -3.5 8.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 90)
 			)
 		)
 	)
@@ -1501,6 +1512,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${KIPRJMOD}/components/MPU6050/ITG-MPU.STEP"
+			(offset
+				(xyz -4 -29.5 5.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 180)
+			)
+		)
 	)
 	(footprint "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
 		(layer "F.Cu")
@@ -1771,6 +1793,17 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/components/LD1117S50TR_SOT223/step/LD1117S50TR.STEP"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 90 -180 -180)
 			)
 		)
 	)
@@ -2432,7 +2465,7 @@
 			(uuid "dfd38fc0-258a-404a-96f5-0cff903f9648")
 		)
 		(embedded_fonts no)
-		(model "${KICAD8_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_Abracon_ABM8G-4Pin_3.2x2.5mm.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_Abracon_ABM8G-4Pin_3.2x2.5mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2440,7 +2473,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -3434,6 +3467,17 @@
 			(uuid "42fc0b03-fd48-44c4-9326-ae9ba08573ae")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/components/SPDT_Slide_Switch/step/SLW-66527511-SMT-TR.step"
+			(offset
+				(xyz 0 0 1.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
@@ -3452,7 +3496,7 @@
 				)
 			)
 		)
-		(property "Value" "1kΩ"
+		(property "Value" "1 kΩ"
 			(at 0 1.65 0)
 			(layer "F.Fab")
 			(uuid "ec802843-49ec-4a54-b06e-9ee0e168177d")
@@ -3864,6 +3908,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${KIPRJMOD}/components/LD1117S50TR_SOT223/step/LD1117S50TR.STEP"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 		(layer "F.Cu")
@@ -4137,7 +4192,7 @@
 			(uuid "6db5f0d3-0258-4d21-9bfa-8f564475c3ac")
 		)
 		(embedded_fonts no)
-		(model "${KICAD8_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x04_P2.54mm_Vertical.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x04_P2.54mm_Vertical.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -5057,6 +5112,17 @@
 			(uuid "1597c221-6cd4-4b5d-af07-8696977f19d2")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/components/SPDT_Slide_Switch/step/SLW-66527511-SMT-TR.step"
+			(offset
+				(xyz 0 0 1.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 90 180 -180)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 		(layer "F.Cu")
@@ -5075,7 +5141,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1 µF"
+		(property "Value" "0.01 µF"
 			(at 0 1.68 0)
 			(layer "F.Fab")
 			(uuid "4d99fa23-afd5-49db-b560-d3f080da9edd")
@@ -5534,6 +5600,17 @@
 		)
 		(embedded_fonts no)
 		(model "434121025816.stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/components/SW_uP_Reset/step/SW_uP_Reset.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -7289,6 +7366,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${KIPRJMOD}/components/Stm32/step/STM32F401RBT6.STEP"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 		(layer "F.Cu")
@@ -8073,6 +8161,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${KIPRJMOD}/components/USB_C_Receptacle_USB2.0_14P/USB4105GFA060--3DModel-STEP-56544.STEP"
+			(offset
+				(xyz 0 -1 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 		(layer "F.Cu")
@@ -8750,6 +8849,17 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/components/TB6612FNG/step/TB6612FNG,C,8,EL.STEP"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -11023,6 +11133,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${KIPRJMOD}/components/Fuse_3DModel/MF-MSMF050-2--3DModel-STEP-56544.STEP"
+			(offset
+				(xyz 0 0 1)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 90 -0 -0)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 		(layer "F.Cu")
@@ -12138,6 +12259,17 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/components/1x4 connector/step/B4B-XH-A -LF--SN---3DModel-STEP-56544.STEP"
+			(offset
+				(xyz 3.5 -0.5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 90 -180 180)
 			)
 		)
 	)
@@ -13509,7 +13641,7 @@
 				)
 			)
 		)
-		(property "Value" "1kΩ"
+		(property "Value" "1 kΩ"
 			(at 0 1.65 0)
 			(layer "F.Fab")
 			(uuid "3ccc44d9-1899-40f8-a053-26207fad4e6f")
